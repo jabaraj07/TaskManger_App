@@ -1,0 +1,20 @@
+// {
+//   "extends": "@tsconfig/react-native/tsconfig.json"
+// }
+
+
+
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",  // or "react" if you're using React <17
+    "module": "ESNext",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true
+  },
+  "include": ["src"], // adjust if needed
+  "exclude": ["node_modules"]
+}
