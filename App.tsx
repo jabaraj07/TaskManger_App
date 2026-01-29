@@ -24,6 +24,7 @@ function RootNavigator(): JSX.Element {
 }
 
 const App = () => {
+  // just for checking
   return (
     <AuthProvider>
       <RootNavigator />
